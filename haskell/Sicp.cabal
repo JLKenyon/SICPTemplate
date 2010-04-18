@@ -1,14 +1,14 @@
 
 
-Name:      UserSICP
+Name:      SICPTemplate
 Version:   0.1
 License:   MIT
 
 Synopsis: A set of stubs files for the SICP book work
 Description:
-  A set of stub files to be used with SICP.  When done, it whould
+  A set of stub files to be used with SICP.  When done, it should
   include undefined stubs for each part of the book and unit tests
-  to verify the correctness of each of those stubs.
+  to verify the correctness of each of those stubs.  This will span
 Author: John Lincoln Kenyon
 Maintainer: jlkenyon@gmail.com
 Cabal-Version: >= 1.6
