@@ -1,0 +1,7 @@
+
+SICPTemplate
+
+This project is meant to be an empty set of templates ready for use with the SICP book in any of several languages (Starting with Haskell but I hope to add stubs for other languages as time goes by).  This project should not contain solutions directly, as users of this project are expected to fill these in as they progress through the book on their own.  There may be unit tests included (the haskell project included from the start has a framework in place for running tests), and these may "imply" solutions, but they are not supposed to be viewed directly by the user.
+
+
+

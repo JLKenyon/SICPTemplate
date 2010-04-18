@@ -1,0 +1,31 @@
+
+
+Name:      UserSICP
+Version:   0.1
+License:   MIT
+
+Synopsis: A set of stubs files for the SICP book work
+Description:
+  A set of stub files to be used with SICP.  When done, it whould
+  include undefined stubs for each part of the book and unit tests
+  to verify the correctness of each of those stubs.
+Author: John Lincoln Kenyon
+Maintainer: jlkenyon@gmail.com
+Cabal-Version: >= 1.6
+build-type: Simple
+
+Executable runSICP
+  main-is:         Sicp.hs
+  build-depends:   base, 
+                   HUnit, 
+                   QuickCheck,
+                   test-framework-hunit, 
+                   test-framework-quickcheck2,
+                   test-framework, 
+                   random,
+                   directory, 
+                   process >= 1.0.1.1,
+                   unix >= 2.3.2.0, 
+                   filepath >= 1.1.0.2,
+                   haskell98
+  HS-Source-Dirs:  src/ 
