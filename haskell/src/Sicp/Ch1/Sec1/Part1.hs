@@ -27,4 +27,52 @@
 
 module Sicp.Ch1.Sec1.Part1 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part1"
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec1.Part1"
+  putStrLn $ "example_sum          = " ++ (show example_sum         ) 
+  putStrLn $ "example_difference   = " ++ (show example_difference  ) 
+  putStrLn $ "example_product      = " ++ (show example_product     ) 
+  putStrLn $ "example_quotient     = " ++ (show example_quotient    ) 
+  putStrLn $ "example_mixed_sum    = " ++ (show example_mixed_sum   ) 
+  putStrLn $ "example_long_sum     = " ++ (show example_long_sum    ) 
+  putStrLn $ "example_long_product = " ++ (show example_long_product) 
+  putStrLn $ "example_mixed_terms  = " ++ (show example_mixed_terms ) 
+  putStrLn $ "example_long_terms   = " ++ (show example_long_terms  ) 
+  putStrLn $ "----------------------------------------"
+
+---- 137 + 349
+--example_sum          :: Float
+example_sum          = "undefined"
+                      
+---- 1000 - 334         
+--example_difference   :: Float
+example_difference   = "undefined"
+                      
+---- 5 * 99             
+--example_product      :: Float
+example_product      = "undefined"
+                      
+---- 10 / 5             
+--example_quotient     :: Float
+example_quotient     = "undefined"
+                      
+---- 2.7 + 10           
+--example_mixed_sum    :: Float
+example_mixed_sum    = "undefined"
+
+---- 21 + 35 + 12 + 7
+--example_long_sum     :: Float
+example_long_sum     = "undefined"
+
+---- 25 * 4 * 12
+--example_long_product :: Float
+example_long_product = "undefined"
+
+---- (3 * 5) + (10 - 6)
+--example_mixed_terms  :: Float
+example_mixed_terms  = "undefined"
+
+----  (3 * ((2 * 4) + (3 + 5)))  + ((10 - 7) + 6)
+--example_long_terms   :: Float
+example_long_terms   = "undefined"
+

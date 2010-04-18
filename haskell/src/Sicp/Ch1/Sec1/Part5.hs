@@ -27,4 +27,7 @@
 
 module Sicp.Ch1.Sec1.Part5 where
 
+import Sicp.Ch1.Sec1.Part4 (square, sum_of_squares)
+
 sicpMain = putStrLn "Sicp.Ch1.Sec1.Part5"
+
