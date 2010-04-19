@@ -27,4 +27,21 @@
 
 module Sicp.Ch1.Sec1.Part2 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part2"
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec1.Part2"
+  putStrLn $ "size         = " ++ (show size        )
+  putStrLn $ "pi           = " ++ (show my_pi       )
+  putStrLn $ "circumfrence = " ++ (show circumfrence)
+  putStrLn $ "----------------------------------------"
+
+---- size = 2
+--size         :: Float
+size         = "undefined"
+
+---- pi = 3.14159
+--my_pi         :: Float
+my_pi         = "undefined"
+
+---- circumfrence = 2 * pi * r
+--circumfrence :: Float
+circumfrence = "undefined"

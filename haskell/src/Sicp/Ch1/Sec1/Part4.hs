@@ -27,4 +27,16 @@
 
 module Sicp.Ch1.Sec1.Part4 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part4"
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec1.Part4"
+  putStrLn $ "square         = " ++ (show square        )
+  putStrLn $ "sum_of_squares = " ++ (show sum_of_squares)
+  putStrLn $ "----------------------------------------"
+
+--square         :: Float -> Float
+square         = "undefined"
+
+--sum_of_squares :: Float -> Float -> Float
+sum_of_squares = "undefined"
+
+

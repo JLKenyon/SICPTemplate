@@ -27,4 +27,8 @@
 
 module Sicp.Ch1.Sec1.Part3 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part3"
+sicpMain = do
+  putStrLn "Sicp.Ch1.Sec1.Part3"
+  putStrLn "----------------------------------------"
+
+-- No coded examples!
