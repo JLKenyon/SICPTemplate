@@ -16,7 +16,7 @@ build-type: Simple
 
 Executable runSICP
   main-is:         Sicp.hs
-  build-depends:   base, 
+  build-depends:   base >= 4,
                    HUnit, 
                    QuickCheck,
                    test-framework-hunit, 

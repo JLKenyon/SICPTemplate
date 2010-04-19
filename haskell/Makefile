@@ -8,6 +8,9 @@ configure:
 build:
 	cabal build
 
+clean:
+	cabal clean
+
 run: build
 	./dist/build/runSICP/runSICP
 
