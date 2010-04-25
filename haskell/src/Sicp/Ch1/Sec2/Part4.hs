@@ -27,4 +27,51 @@
 
 module Sicp.Ch1.Sec2.Part4 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec2.Part4"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec2.Part4"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+expt :: Int -> Int -> Int
+expt = undefined
+    where
+      expt_iter :: Int -> Int -> Int -> Int
+      expt_iter = undefined
+
+fast_expt :: Int -> Int
+fast_expt = undefined
+    where
+      is_even :: Int -> Bool
+      is_even = undefined
+
+
+
+-- Exercise 1.16
+expt_iter_logt :: Int -> Int -> Int
+expt_iter_logt = undefined
+
+-- Exercise 1.17
+mult_iter_logt :: Int -> Int -> Int
+mult_iter_logt = undefined
+
+-- Exercise 1.18
+mult_iter_logt2 :: Int -> Int -> Int
+mult_iter_logt2 = undefined
+    where
+      add :: Int -> Int -> Int
+      add = undefined
+      double :: Int -> Int
+      double = undefined
+      half :: Int -> Int
+      half = undefined
+
+-- Exercise 1.19
+fib_iter_logt :: Int -> Int
+fib_iter_logt = undefined
+
+
+
+
+

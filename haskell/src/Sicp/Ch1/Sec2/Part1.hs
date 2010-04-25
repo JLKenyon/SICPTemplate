@@ -27,4 +27,40 @@
 
 module Sicp.Ch1.Sec2.Part1 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec2.Part1"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec2.Part1"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+
+factorial :: Int -> Int
+factorial n = factorial_iter 1 1 n
+    where
+      factorial_iter :: Int -> Int -> Int -> Int
+      factorial_iter = undefined
+
+
+-- Exercise.1.9
+inc :: Int -> Int
+inc = undefined
+
+dec :: Int -> Int
+dec = undefined
+
+sum1 :: Int -> Int -> Int
+sum1 = undefined
+
+sum2 :: Int -> Int -> Int
+sum2 = undefined
+
+-- Exercise.1.10
+ackermann :: Int -> Int -> Int
+ackermann = undefined
+
+
+
+
+
+

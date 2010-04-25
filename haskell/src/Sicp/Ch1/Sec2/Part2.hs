@@ -27,4 +27,43 @@
 
 module Sicp.Ch1.Sec2.Part2 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec2.Part2"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec2.Part2"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+
+fibonacci_rec :: Int -> Int
+fibonacci_rec = undefined
+
+fibonacci_iter :: Int -> Int -> Int -> Int
+fibonacci_iter = undefined
+
+
+
+count_change :: Int -> Int
+count_change = undefined
+
+
+-- Exercise 1.11
+-- f(n) = n if n<3 and f(n) = f(n - 1) + 2f(n - 2) + 3f(n - 3) if n> 3
+func_rec :: Int -> Int
+func_rec = undefined
+
+func_iter :: Int -- -> ... -- Left up to the user to define
+func_iter = undefined
+
+-- Exercise 1.12
+-- Number of levels -> multi line text
+rec_pascals_triangle :: Int -> String
+rec_pascals_triangle = undefined
+
+-- 
+fib_vs_phi :: Int -> Float
+fib_vs_phi = undefined
+    where phi_power :: Int -> Float
+          phi_power = undefined
+          fib :: Int -> Float
+          fib = undefined

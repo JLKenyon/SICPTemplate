@@ -27,4 +27,29 @@
 
 module Sicp.Ch1.Sec1.Part6 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part6"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec1.Part6"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+if_abs :: Float -> Float
+if_abs = undefined
+
+case_abs :: Float -> Float
+case_abs = undefined
+
+-- Define a procedure that takes three numbers as arguments and returns the 
+-- sum of the squares of the two larger numbers.
+exercise_1_3_args :: Float -> Float -> Float -> Float
+exercise_1_3_args = undefined
+
+exercise_1_3_list :: [Float] -> Float
+exercise_1_3_list = undefined
+
+exercise_1_3_tuple :: (Float,Float,Float) -> Float
+exercise_1_3_tuple = undefined
+
+
+

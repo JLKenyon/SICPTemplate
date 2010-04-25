@@ -27,4 +27,23 @@
 
 module Sicp.Ch1.Sec2.Part3 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec2.Part3"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec2.Part3"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+-- Exercise 1.14 involves drawing
+
+-- Exercise 1.15
+
+sine :: Float -> Float
+sine = undefined
+    where
+      cube :: Float -> Float
+      cube = undefined
+      p :: Float -> Float
+      p = undefined
+
+

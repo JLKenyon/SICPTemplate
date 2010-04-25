@@ -31,5 +31,15 @@ import Sicp.Common.Util (try_show)
 
 import Sicp.Ch1.Sec1.Part4 (square, sum_of_squares)
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part5"
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec1.Part5"
+  putStrLn $ "use_sum_of_squares 4 5 = " ++ (try_show $ use_sum_of_squares 4 5 )
+  putStrLn $ "curry_sum_of_squares   = " ++ (try_show $ curry_sum_of_squares (undefined) 5 )
+  putStrLn $ "----------------------------------------"
 
+use_sum_of_squares :: Float -> Float -> Float
+use_sum_of_squares = undefined
+
+-- (sum-of-squares (+ a 1) (* a 2))
+curry_sum_of_squares :: (Float -> Float) -> Float -> Float
+curry_sum_of_squares = undefined

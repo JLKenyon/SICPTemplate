@@ -27,4 +27,59 @@
 
 module Sicp.Ch1.Sec3.Part3 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec3.Part3"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec3.Part3"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+
+half_interval :: (Num n) => (n -> n) -> n -> n -> n
+half_interval = undefined
+    where close_enough :: (Num n) => n -> n -> Bool
+          close_enough = undefined
+
+fixed_point :: (Num n) => (n -> n) -> n -> n
+fixed_point = undefined
+    where tolerance :: (Num n) => n
+          tolerance = undefined
+          close_enough :: (Num n) => n -> n -> Bool
+          close_enough = undefined
+          try_guess :: (Num n) => n -> n
+          try_guess = undefined
+
+fixed_point_sqrt :: Float -> Float
+fixed_point_sqrt = undefined
+    where average :: Float -> Float -> Float
+          average = undefined
+
+
+
+-- Exercise 1.35
+-- phi is fixed point of f(x) = 1 + 1/x
+golden_ration :: Bool
+golden_ration = undefined
+    where tolerance = undefined
+
+-- Exercise 1.36
+-- Automatically testing this one is complicated due to the 
+-- required use of the IO monad
+vocal_fixed_point :: (Num n) => (n -> n) -> n -> IO n
+vocal_fixed_point = undefined
+
+
+
+-- Exercise 1.37
+-- Complicated! -- Todo, fill this in!
+
+-- Exercise 1.38
+-- Requires 1.37 to be implemented
+
+
+-- Exercise 1.39
+tan_cf :: Float -> Int -> Float
+tan_cf = undefined
+
+
+

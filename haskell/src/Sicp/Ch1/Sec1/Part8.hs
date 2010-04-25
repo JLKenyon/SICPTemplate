@@ -27,4 +27,11 @@
 
 module Sicp.Ch1.Sec1.Part8 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part8"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec1.Part8"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+-- Few coded examples in this section.

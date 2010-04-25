@@ -27,4 +27,43 @@
 
 module Sicp.Ch1.Sec1.Part7 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec1.Part7"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec1.Part7"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+
+average :: Float -> Float -> Float
+average = undefined
+
+improve_guess :: Float -> Float -> Float
+improve_guess = undefined
+
+good_enough :: Float -> Float -> Bool
+good_enough = undefined
+
+sqrt_iter :: Float -> Float -> Float
+sqrt_iter = undefined
+
+
+-- Exercize 1.6
+-- SPOILER!
+-- In SICP, the character of Alyssa P. Hacker finds out why
+-- the "if" function must be specially handled, and cannot be
+-- defined as a function within the language of lisp.
+-- How does this compare to Haskell? Why?
+
+exercise_1_6_haskell = undefined
+
+
+-- Exercise 1.7
+exercise_1_7_better_good_enough :: Float -> Float -> Bool
+exercise_1_7_better_good_enough = undefined
+
+-- Exercise 1.8
+better_sqrt_iter :: Float -> Float -> Float
+better_sqrt_iter = undefined
+
+

@@ -27,4 +27,16 @@
 
 module Sicp.Ch1.Sec2.Part5 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec2.Part5"
+import Sicp.Common.Util (try_show)
+
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec2.Part5"
+--  putStrLn $ "func_name   = " ++ (try_show $ func_name  ) 
+  putStrLn $ "----------------------------------------"
+
+gcd :: Int -> Int -> Int
+gcd = undefined
+
+
+-- Exercise 1.20
+-- Word problem
