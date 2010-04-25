@@ -27,6 +27,8 @@
 
 module Sicp.Ch1.Sec1.Part3 where
 
+import Sicp.Common.Util (try_show)
+
 sicpMain = do
   putStrLn "Sicp.Ch1.Sec1.Part3"
   putStrLn "----------------------------------------"

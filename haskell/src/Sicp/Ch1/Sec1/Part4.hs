@@ -27,16 +27,18 @@
 
 module Sicp.Ch1.Sec1.Part4 where
 
+import Sicp.Common.Util (try_show)
+
 sicpMain = do
   putStrLn $ "Sicp.Ch1.Sec1.Part4"
-  putStrLn $ "square         = " ++ (show square        )
-  putStrLn $ "sum_of_squares = " ++ (show sum_of_squares)
+  putStrLn $ "square         5   = " ++ (try_show $ square         5   )
+  putStrLn $ "sum_of_squares 4 5 = " ++ (try_show $ sum_of_squares 4 5 )
   putStrLn $ "----------------------------------------"
 
---square         :: Float -> Float
-square         = "undefined"
+square         :: Float -> Float
+square         = undefined
 
---sum_of_squares :: Float -> Float -> Float
-sum_of_squares = "undefined"
+sum_of_squares :: Float -> Float -> Float
+sum_of_squares = undefined
 
 

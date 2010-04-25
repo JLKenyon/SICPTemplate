@@ -27,21 +27,23 @@
 
 module Sicp.Ch1.Sec1.Part2 where
 
+import Sicp.Common.Util (try_show)
+
 sicpMain = do
   putStrLn $ "Sicp.Ch1.Sec1.Part2"
-  putStrLn $ "size         = " ++ (show size        )
-  putStrLn $ "pi           = " ++ (show my_pi       )
-  putStrLn $ "circumfrence = " ++ (show circumfrence)
+  putStrLn $ "size         = " ++ (try_show size        )
+  putStrLn $ "pi           = " ++ (try_show my_pi       )
+  putStrLn $ "circumfrence = " ++ (try_show circumfrence)
   putStrLn $ "----------------------------------------"
 
 ---- size = 2
---size         :: Float
-size         = "undefined"
+size         :: Float
+size         = undefined
 
 ---- pi = 3.14159
---my_pi         :: Float
-my_pi         = "undefined"
+my_pi         :: Float
+my_pi         = undefined
 
 ---- circumfrence = 2 * pi * r
---circumfrence :: Float
-circumfrence = "undefined"
+circumfrence :: Float
+circumfrence = undefined

@@ -27,16 +27,16 @@
 
 module Sicp.Common.Util where
 
-import Control.OldException
+import Control.Exception
 import System.IO.Unsafe
 
 try_show :: (Show a) => a -> String
-try_show = unsafePerformIO . rtshow
-    where rtshow :: (Show a) => a -> IO String
-          rtshow func = do
-            ret <- try (return func)
-            case ret of
-              Left  _ -> return "Undefined"
-              Right x -> return $ show x
-
-
+try_show v = unsafePerformIO $ try_show' v
+    where
+      try_show' :: (Show a) => a -> IO String
+      try_show' v = do
+        res <- try (evaluate v)
+        return $ resolve res
+      resolve :: (Show a) => Either Control.Exception.SomeException a -> String
+      resolve (Left  _) = "undefined"
+      resolve (Right x) = show x

@@ -43,19 +43,19 @@ sicpMain = do
   putStrLn $ "----------------------------------------"
 
 -- 137 + 349
-example_sum          :: Float
+example_sum          :: Int
 example_sum          = undefined
                       
 -- 1000 - 334         
-example_difference   :: Float
+example_difference   :: Int
 example_difference   = undefined
                       
 -- 5 * 99             
-example_product      :: Float
+example_product      :: Int
 example_product      = undefined
                       
 -- 10 / 5             
-example_quotient     :: Float
+example_quotient     :: Int
 example_quotient     = undefined
                       
 -- 2.7 + 10           
@@ -63,18 +63,18 @@ example_mixed_sum    :: Float
 example_mixed_sum    = undefined
 
 -- 21 + 35 + 12 + 7
-example_long_sum     :: Float
+example_long_sum     :: Int
 example_long_sum     = undefined
 
 -- 25 * 4 * 12
-example_long_product :: Float
+example_long_product :: Int
 example_long_product = undefined
 
 -- (3 * 5) + (10 - 6)
-example_mixed_terms  :: Float
+example_mixed_terms  :: Int
 example_mixed_terms  = undefined
 
 --  (3 * ((2 * 4) + (3 + 5)))  + ((10 - 7) + 6)
-example_long_terms   :: Float
+example_long_terms   :: Int
 example_long_terms   = undefined
 
