@@ -34,6 +34,15 @@ import Test.HUnit
 
 import Sicp.Ch1.Sec1.Part7
 
+assertClose :: Float -> Float -> Assertion
+assertClose x y = assertBool "" (abs(x - y) < 0.01)
+
 tests = testGroup "Part7"
-    [testCase "Ch1.Sec1.Part7 Tests Loaded" $ assertBool "" True]
+    [ testCase "Ch1.Sec1.Part7 Tests Loaded" $ assertBool "" True
+    , testCase "sqrt 1       " $ (assertClose (sqrt_iter 1 1)  1)
+    , testCase "sqrt 4       " $ (assertClose (sqrt_iter 1 4)  2)
+    , testCase "sqrt 9       " $ (assertClose (sqrt_iter 1 9)  3)
+    , testCase "sqrt 16      " $ (assertClose (sqrt_iter 1 16) 4)
+    , testCase "sqrt 25      " $ (assertClose (sqrt_iter 1 25) 5)
+    ]
 

@@ -35,5 +35,17 @@ import Test.HUnit
 import Sicp.Ch1.Sec1.Part4
 
 tests = testGroup "Part4"
-    [testCase "Ch1.Sec1.Part4 Tests Loaded" $ assertBool "" True]
+    [ testCase "Ch1.Sec1.Part4 Tests Loaded" $ assertBool "" True
+    , testCase "square 1           " $ (square 1) @?= 1
+    , testCase "square 2           " $ (square 2) @?= 4
+    , testCase "square 3           " $ (square 3) @?= 9
+    , testCase "square 4           " $ (square 4) @?= 16
+    , testCase "square 5           " $ (square 5) @?= 25
+    , testCase "sum_of_squares 4 5 " $ (sum_of_squares 4 5) @?= 41
+    , testCase "sum_of_squares 2 4 " $ (sum_of_squares 2 4) @?= 20
+    , testCase "sum_of_squares 8 1 " $ (sum_of_squares 8 1) @?= 65
+    , testCase "sum_of_squares 7 5 " $ (sum_of_squares 7 5) @?= 74
+    , testCase "sum_of_squares 2 3 " $ (sum_of_squares 2 3) @?= 13
+    , testCase "sum_of_squares 6 3 " $ (sum_of_squares 6 3) @?= 45
+    ]
 
