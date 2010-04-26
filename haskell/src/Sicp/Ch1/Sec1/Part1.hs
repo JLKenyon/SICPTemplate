@@ -27,22 +27,24 @@
 
 module Sicp.Ch1.Sec1.Part1 where
 
+import Sicp.Common
+
 sicpMain = do
   putStrLn $ "Sicp.Ch1.Sec1.Part1"
-  putStrLn $ "example_sum          = " ++ (show example_sum         ) 
-  putStrLn $ "example_difference   = " ++ (show example_difference  ) 
-  putStrLn $ "example_product      = " ++ (show example_product     ) 
-  putStrLn $ "example_quotient     = " ++ (show example_quotient    ) 
-  putStrLn $ "example_mixed_sum    = " ++ (show example_mixed_sum   ) 
-  putStrLn $ "example_long_sum     = " ++ (show example_long_sum    ) 
-  putStrLn $ "example_long_product = " ++ (show example_long_product) 
-  putStrLn $ "example_mixed_terms  = " ++ (show example_mixed_terms ) 
-  putStrLn $ "example_long_terms   = " ++ (show example_long_terms  ) 
+  putStrLn $ "example_sum          = " ++ (try_show example_sum         ) 
+  --putStrLn $ "example_difference   = " ++ (try_show example_difference  ) 
+  --putStrLn $ "example_product      = " ++ (try_show example_product     ) 
+  --putStrLn $ "example_quotient     = " ++ (try_show example_quotient    ) 
+  --putStrLn $ "example_mixed_sum    = " ++ (try_show example_mixed_sum   ) 
+  --putStrLn $ "example_long_sum     = " ++ (try_show example_long_sum    ) 
+  --putStrLn $ "example_long_product = " ++ (try_show example_long_product) 
+  --putStrLn $ "example_mixed_terms  = " ++ (try_show example_mixed_terms ) 
+  --putStrLn $ "example_long_terms   = " ++ (try_show example_long_terms  ) 
   putStrLn $ "----------------------------------------"
 
 ---- 137 + 349
---example_sum          :: Float
-example_sum          = "undefined"
+example_sum          :: Float
+example_sum          = undefined
                       
 ---- 1000 - 334         
 --example_difference   :: Float

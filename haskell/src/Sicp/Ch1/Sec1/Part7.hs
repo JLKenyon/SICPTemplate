@@ -28,3 +28,12 @@
 module Sicp.Ch1.Sec1.Part7 where
 
 sicpMain = putStrLn "Sicp.Ch1.Sec1.Part7"
+
+
+-- Square root
+-- sqrt_iter :: Float -> Float -> Float
+sqrt_iter = "undefined"
+
+
+
+

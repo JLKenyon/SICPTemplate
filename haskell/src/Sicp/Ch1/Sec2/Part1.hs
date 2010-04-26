@@ -28,3 +28,14 @@
 module Sicp.Ch1.Sec2.Part1 where
 
 sicpMain = putStrLn "Sicp.Ch1.Sec2.Part1"
+
+
+---- Factorial
+--factorial_rec :: Int -> Int
+factorial_rec = "undefined"
+
+----factorial_iter
+--factorial_iter :: Int -> Int -> Int
+factorial_iter = "undefined"
+
+

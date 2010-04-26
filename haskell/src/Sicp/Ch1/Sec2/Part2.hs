@@ -27,4 +27,25 @@
 
 module Sicp.Ch1.Sec2.Part2 where
 
-sicpMain = putStrLn "Sicp.Ch1.Sec2.Part2"
+sicpMain = do
+  putStrLn $ "Sicp.Ch1.Sec2.Part2"
+  putStrLn $ "fib_rec = " ++ (show $ fib_rec)
+  putStrLn $ "fib_rec = " ++ (show $ fib_iter)
+  putStrLn $ "change  = " ++ (show $ change)
+  putStrLn $ "----------------------------------------"
+
+
+
+---- Fibonacci recursive
+--fib_rec :: Int -> Int
+fib_rec = "undefined"
+
+
+---- Fibonacci iterative
+--fib_iter :: Int -> Int -> Int
+fib_iter = "undefined"
+
+
+---- How many ways can you make change?
+-- change :: Int -> [Int] -> Int
+change = "undefined"

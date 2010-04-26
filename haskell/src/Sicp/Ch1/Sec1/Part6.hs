@@ -28,3 +28,21 @@
 module Sicp.Ch1.Sec1.Part6 where
 
 sicpMain = putStrLn "Sicp.Ch1.Sec1.Part6"
+
+
+
+---- Absolute value
+-- abs_with_if :: Float -> Float
+abs_with_if = "undefined"
+
+---- Absolute value
+-- abs_with_case :: Float -> Float
+abs_with_case = "undefined"
+
+
+
+
+
+
+
+
