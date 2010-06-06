@@ -27,4 +27,32 @@
 
 module Sicp.Ch2.Sec1.Part3 where
 
-sicpMain = putStrLn "Sicp.Ch2.Sec1.Part3"
+sicpMain = do
+  putStrLn "Sicp.Ch2.Sec1.Part3"
+  putStrLn $ show (ConsInt 1 (ConsInt 2 (ConsInt 3 NilInt)))
+  putStrLn $ show (Cons 1 (Cons 2 (Cons 3 Nil)))
+
+--
+
+data ConsIntList = ConsInt Int ConsIntList
+                 | NilInt
+                   deriving(Show)
+
+car_cons_int :: ConsIntList -> a
+car_cons_int = undefined
+
+cdr_cons_int :: ConsIntList -> b
+cdr_cons_int = undefined
+
+-- try again
+
+data ConsList a = Cons a (ConsList a)
+                | Nil
+                  deriving(Show)
+
+car_cons :: ConsIntList -> a
+car_cons = undefined
+
+cdr_cons :: ConsIntList -> b
+cdr_cons = undefined
+

@@ -27,31 +27,29 @@
 
 module Sicp.Ch2.Sec1.Part1 where
 
-sicpMain = putStrLn "Sicp.Ch2.Sec1.Part1"
+import Sicp.Ch1.Sec2.Part5 (gcd)
 
+sicpMain = putStrLn "Sicp.Ch2.Sec1.Part1"
 
 linear_combination_specific :: Int -> Int -> Int -> Int -> Int
 linear_combination_specific = undefined
 
 -- -------------------------------
 
-class MyIntegral a where
-    myAdd :: a -> a -> a
-    mySub :: a -> a -> a
-    myMul :: a -> a -> a
-    myDiv :: a -> a -> a
+data MyRational = MyRational -- ...
 
-data MyRational = MyRational
+add_rat   :: MyRational -> MyRational -> MyRational
+add_rat   = undefined
 
-instance MyIntegral MyRational where
-    myAdd = undefined 
-    mySub = undefined 
-    myMul = undefined 
-    myDiv = undefined 
+sub_rat   :: MyRational -> MyRational -> MyRational
+sub_rat   = undefined
 
-linear_combination_abstract :: Int -> Int -> Int -> Int -> Int
-linear_combination_abstract = undefined
+mul_rat   :: MyRational -> MyRational -> MyRational
+mul_rat   = undefined
 
+div_rat   :: MyRational -> MyRational -> MyRational
+div_rat   = undefined
 
-
+equal_rat :: MyRational -> MyRational -> Bool
+equal_rat = undefined
 

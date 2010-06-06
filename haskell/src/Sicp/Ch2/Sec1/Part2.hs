@@ -27,4 +27,38 @@
 
 module Sicp.Ch2.Sec1.Part2 where
 
+import Sicp.Ch2.Sec1.Part1
+
 sicpMain = putStrLn "Sicp.Ch2.Sec1.Part2"
+
+
+-- 2.2
+
+data Point = Point -- ...
+data LineSegment = LineSegment -- ...
+
+midpoint_segment :: LineSegment -> Point
+midpoint_segment = undefined
+
+-- 2.3
+
+data FirstRectangle = FirstRectangle
+
+first_rectangle_perimeter :: FirstRectangle -> Float
+first_rectangle_perimeter = undefined
+
+first_rectangle_area      :: FirstRectangle -> Float
+first_rectangle_area      = undefined
+
+
+class Rectangle a where
+    area      :: a -> Float
+    perimeter :: a -> Float
+    
+
+data SecondRectangle = SecondRectangle -- ..
+
+instance Rectangle SecondRectangle where
+    area      = undefined
+    perimeter = undefined
+
