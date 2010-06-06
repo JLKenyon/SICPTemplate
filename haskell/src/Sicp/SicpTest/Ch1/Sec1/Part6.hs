@@ -35,5 +35,22 @@ import Test.HUnit
 import Sicp.Ch1.Sec1.Part6
 
 tests = testGroup "Part6"
-    [testCase "Ch1.Sec1.Part6 Tests Loaded" $ assertBool "" True]
+    [ testCase "Ch1.Sec1.Part6 Tests Loaded" $ assertBool "" True
+    , testCase "if_abs   -2" $ (if_abs   (-2)) @?= 2
+    , testCase "if_abs   -1" $ (if_abs   (-1)) @?= 1
+    , testCase "if_abs    0" $ (if_abs   ( 0)) @?= 0
+    , testCase "if_abs    1" $ (if_abs   ( 1)) @?= 1
+    , testCase "if_abs    2" $ (if_abs   ( 2)) @?= 2
+    , testCase "case_abs -2" $ (case_abs (-2)) @?= 2
+    , testCase "case_abs -1" $ (case_abs (-1)) @?= 1
+    , testCase "case_abs  0" $ (case_abs ( 0)) @?= 0
+    , testCase "case_abs  1" $ (case_abs ( 1)) @?= 1
+    , testCase "case_abs  2" $ (case_abs ( 2)) @?= 2
+    , testGroup "Exercise 1.3"
+      [ testCase "E 1.3   1 2 3" $ (exercise_1_3_args 1 2 3) @?= 13
+      , testCase "E 1.3   4 2 3" $ (exercise_1_3_args 4 2 3) @?= 25
+      , testCase "E 1.3   4 5 3" $ (exercise_1_3_args 4 5 3) @?= 41
+      , testCase "E 1.3   4 2 6" $ (exercise_1_3_args 4 2 6) @?= 52
+      ]
+    ]
 

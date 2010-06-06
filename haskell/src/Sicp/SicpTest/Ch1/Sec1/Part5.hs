@@ -35,5 +35,7 @@ import Test.HUnit
 import Sicp.Ch1.Sec1.Part5
 
 tests = testGroup "Part5"
-    [testCase "Ch1.Sec1.Part5 Tests Loaded" $ assertBool "" True]
-
+    [ testCase "Ch1.Sec1.Part5 Tests Loaded" $ assertBool "" True
+    , testCase "sum of squares " $ (use_sum_of_squares   4 5) @?= 41
+      -- TODO curried sum of squares
+    ]

@@ -35,5 +35,15 @@ import Test.HUnit
 import Sicp.Ch1.Sec1.Part1
 
 tests = testGroup "Part1"
-    [testCase "Ch1.Sec1.Part1 Tests Loaded" $ assertBool "" True]
+    [ testCase "Ch1.Sec1.Part1 Tests Loaded" $ assertBool "" True
+    , testCase "Simple Sum        " $ example_sum          @?= 486
+    , testCase "Simple Difference " $ example_difference   @?= 666
+    , testCase "Simple Product    " $ example_product      @?= 495
+    , testCase "Simple Quotient   " $ example_quotient     @?= 2
+    , testCase "Mixed Sum         " $ example_mixed_sum    @?= 12.7
+    , testCase "Long Sum          " $ example_long_sum     @?= 75
+    , testCase "Long Product      " $ example_long_product @?= 1200
+    , testCase "Mixed Terms       " $ example_mixed_terms  @?= 19
+    , testCase "Long Terms        " $ example_long_terms   @?= 57
+    ]
 

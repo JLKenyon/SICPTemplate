@@ -35,5 +35,5 @@ import Test.HUnit
 import Sicp.Ch1.Sec1.Part3
 
 tests = testGroup "Part3"
-    [testCase "Ch1.Sec1.Part3 Tests Loaded" $ assertBool "" True]
+    [ testCase "Ch1.Sec1.Part3 Tests Loaded" $ assertBool "" True ]
 

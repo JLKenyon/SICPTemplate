@@ -40,6 +40,6 @@ sicpMain = do
 use_sum_of_squares :: Float -> Float -> Float
 use_sum_of_squares = undefined
 
--- (sum-of-squares (+ a 1) (* a 2))
+-- (sum-of-squares (+ a 1) (* a 2)) -- TODO untested
 curry_sum_of_squares :: (Float -> Float) -> Float -> Float
-curry_sum_of_squares = undefined
+curry_sum_of_squares = undefined 

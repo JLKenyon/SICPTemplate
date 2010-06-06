@@ -35,5 +35,9 @@ import Test.HUnit
 import Sicp.Ch1.Sec1.Part2
 
 tests = testGroup "Part2"
-    [testCase "Ch1.Sec1.Part2 Tests Loaded" $ assertBool "" True]
+    [ testCase "Ch1.Sec1.Part2 Tests Loaded" $ assertBool "" True
+    , testCase "Diameter     " $ size          @?= 2
+    , testCase "Pi           " $ my_pi         @?= 3.14159
+    , testCase "Circumfrence " $ circumfrence  @?= 12.56636
+    ]
 
