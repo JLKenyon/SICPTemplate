@@ -28,3 +28,30 @@
 module Sicp.Ch2.Sec1.Part1 where
 
 sicpMain = putStrLn "Sicp.Ch2.Sec1.Part1"
+
+
+linear_combination_specific :: Int -> Int -> Int -> Int -> Int
+linear_combination_specific = undefined
+
+-- -------------------------------
+
+class MyIntegral a where
+    myAdd :: a -> a -> a
+    mySub :: a -> a -> a
+    myMul :: a -> a -> a
+    myDiv :: a -> a -> a
+
+data MyRational = MyRational
+
+instance MyIntegral MyRational where
+    myAdd = undefined 
+    mySub = undefined 
+    myMul = undefined 
+    myDiv = undefined 
+
+linear_combination_abstract :: Int -> Int -> Int -> Int -> Int
+linear_combination_abstract = undefined
+
+
+
+
