@@ -1,0 +1,193 @@
+#lang scheme
+
+(require "Sicp/Ch1/Sec1/Part1.scm"
+         "Sicp/Ch1/Sec1/Part2.scm"
+         "Sicp/Ch1/Sec1/Part3.scm"
+         "Sicp/Ch1/Sec1/Part4.scm"
+         "Sicp/Ch1/Sec1/Part5.scm"
+         "Sicp/Ch1/Sec1/Part6.scm"
+         "Sicp/Ch1/Sec1/Part7.scm"
+         "Sicp/Ch1/Sec1/Part8.scm"
+         "Sicp/Ch1/Sec2/Part1.scm"
+         "Sicp/Ch1/Sec2/Part2.scm"
+         "Sicp/Ch1/Sec2/Part3.scm"
+         "Sicp/Ch1/Sec2/Part4.scm"
+         "Sicp/Ch1/Sec2/Part5.scm"
+         "Sicp/Ch1/Sec2/Part6.scm"
+         "Sicp/Ch1/Sec3/Part1.scm"
+         "Sicp/Ch1/Sec3/Part2.scm"
+         "Sicp/Ch1/Sec3/Part3.scm"
+         "Sicp/Ch1/Sec3/Part4.scm"
+         "Sicp/Ch2/Sec1/Part1.scm"
+         "Sicp/Ch2/Sec1/Part2.scm"
+         "Sicp/Ch2/Sec1/Part3.scm"
+         "Sicp/Ch2/Sec1/Part4.scm"
+         "Sicp/Ch2/Sec2/Part1.scm"
+         "Sicp/Ch2/Sec2/Part2.scm"
+         "Sicp/Ch2/Sec2/Part3.scm"
+         "Sicp/Ch2/Sec2/Part4.scm"
+         "Sicp/Ch2/Sec3/Part1.scm"
+         "Sicp/Ch2/Sec3/Part2.scm"
+         "Sicp/Ch2/Sec3/Part3.scm"
+         "Sicp/Ch2/Sec3/Part4.scm"
+         "Sicp/Ch2/Sec4/Part1.scm"
+         "Sicp/Ch2/Sec4/Part2.scm"
+         "Sicp/Ch2/Sec4/Part3.scm"
+         "Sicp/Ch2/Sec5/Part1.scm"
+         "Sicp/Ch2/Sec5/Part2.scm"
+         "Sicp/Ch2/Sec5/Part3.scm"
+         "Sicp/Ch3/Sec1/Part1.scm"
+         "Sicp/Ch3/Sec1/Part2.scm"
+         "Sicp/Ch3/Sec1/Part3.scm"
+         "Sicp/Ch3/Sec2/Part1.scm"
+         "Sicp/Ch3/Sec2/Part2.scm"
+         "Sicp/Ch3/Sec2/Part3.scm"
+         "Sicp/Ch3/Sec2/Part4.scm"
+         "Sicp/Ch3/Sec3/Part1.scm"
+         "Sicp/Ch3/Sec3/Part2.scm"
+         "Sicp/Ch3/Sec3/Part3.scm"
+         "Sicp/Ch3/Sec3/Part4.scm"
+         "Sicp/Ch3/Sec3/Part5.scm"
+         "Sicp/Ch3/Sec4/Part1.scm"
+         "Sicp/Ch3/Sec4/Part2.scm"
+         "Sicp/Ch3/Sec5/Part1.scm"
+         "Sicp/Ch3/Sec5/Part2.scm"
+         "Sicp/Ch3/Sec5/Part3.scm"
+         "Sicp/Ch3/Sec5/Part4.scm"
+         "Sicp/Ch3/Sec5/Part5.scm"
+         "Sicp/Ch4/Sec1/Part1.scm"
+         "Sicp/Ch4/Sec1/Part2.scm"
+         "Sicp/Ch4/Sec1/Part3.scm"
+         "Sicp/Ch4/Sec1/Part4.scm"
+         "Sicp/Ch4/Sec1/Part5.scm"
+         "Sicp/Ch4/Sec1/Part6.scm"
+         "Sicp/Ch4/Sec1/Part7.scm"
+         "Sicp/Ch4/Sec2/Part1.scm"
+         "Sicp/Ch4/Sec2/Part2.scm"
+         "Sicp/Ch4/Sec2/Part3.scm"
+         "Sicp/Ch4/Sec3/Part1.scm"
+         "Sicp/Ch4/Sec3/Part2.scm"
+         "Sicp/Ch4/Sec3/Part3.scm"
+         "Sicp/Ch4/Sec4/Part1.scm"
+         "Sicp/Ch4/Sec4/Part2.scm"
+         "Sicp/Ch4/Sec4/Part3.scm"
+         "Sicp/Ch4/Sec4/Part4.scm"
+         "Sicp/Ch5/Sec1/Part1.scm"
+         "Sicp/Ch5/Sec1/Part2.scm"
+         "Sicp/Ch5/Sec1/Part3.scm"
+         "Sicp/Ch5/Sec1/Part4.scm"
+         "Sicp/Ch5/Sec1/Part5.scm"
+         "Sicp/Ch5/Sec2/Part1.scm"
+         "Sicp/Ch5/Sec2/Part2.scm"
+         "Sicp/Ch5/Sec2/Part3.scm"
+         "Sicp/Ch5/Sec2/Part4.scm"
+         "Sicp/Ch5/Sec3/Part1.scm"
+         "Sicp/Ch5/Sec3/Part2.scm"
+         "Sicp/Ch5/Sec4/Part1.scm"
+         "Sicp/Ch5/Sec4/Part2.scm"
+         "Sicp/Ch5/Sec4/Part3.scm"
+         "Sicp/Ch5/Sec4/Part4.scm"
+         "Sicp/Ch5/Sec5/Part1.scm"
+         "Sicp/Ch5/Sec5/Part2.scm"
+         "Sicp/Ch5/Sec5/Part3.scm"
+         "Sicp/Ch5/Sec5/Part4.scm"
+         "Sicp/Ch5/Sec5/Part5.scm"
+         "Sicp/Ch5/Sec5/Part6.scm"
+         "Sicp/Ch5/Sec5/Part7.scm")
+
+(sicp-main-ch1-sec1-part1)
+(sicp-main-ch1-sec1-part2)
+(sicp-main-ch1-sec1-part3)
+(sicp-main-ch1-sec1-part4)
+(sicp-main-ch1-sec1-part5)
+(sicp-main-ch1-sec1-part6)
+(sicp-main-ch1-sec1-part7)
+(sicp-main-ch1-sec1-part8)
+(sicp-main-ch1-sec2-part1)
+(sicp-main-ch1-sec2-part2)
+(sicp-main-ch1-sec2-part3)
+(sicp-main-ch1-sec2-part4)
+(sicp-main-ch1-sec2-part5)
+(sicp-main-ch1-sec2-part6)
+(sicp-main-ch1-sec3-part1)
+(sicp-main-ch1-sec3-part2)
+(sicp-main-ch1-sec3-part3)
+(sicp-main-ch1-sec3-part4)
+(sicp-main-ch2-sec1-part1)
+(sicp-main-ch2-sec1-part2)
+(sicp-main-ch2-sec1-part3)
+(sicp-main-ch2-sec1-part4)
+(sicp-main-ch2-sec2-part1)
+(sicp-main-ch2-sec2-part2)
+(sicp-main-ch2-sec2-part3)
+(sicp-main-ch2-sec2-part4)
+(sicp-main-ch2-sec3-part1)
+(sicp-main-ch2-sec3-part2)
+(sicp-main-ch2-sec3-part3)
+(sicp-main-ch2-sec3-part4)
+(sicp-main-ch2-sec4-part1)
+(sicp-main-ch2-sec4-part2)
+(sicp-main-ch2-sec4-part3)
+(sicp-main-ch2-sec5-part1)
+(sicp-main-ch2-sec5-part2)
+(sicp-main-ch2-sec5-part3)
+(sicp-main-ch3-sec1-part1)
+(sicp-main-ch3-sec1-part2)
+(sicp-main-ch3-sec1-part3)
+(sicp-main-ch3-sec2-part1)
+(sicp-main-ch3-sec2-part2)
+(sicp-main-ch3-sec2-part3)
+(sicp-main-ch3-sec2-part4)
+(sicp-main-ch3-sec3-part1)
+(sicp-main-ch3-sec3-part2)
+(sicp-main-ch3-sec3-part3)
+(sicp-main-ch3-sec3-part4)
+(sicp-main-ch3-sec3-part5)
+(sicp-main-ch3-sec4-part1)
+(sicp-main-ch3-sec4-part2)
+(sicp-main-ch3-sec5-part1)
+(sicp-main-ch3-sec5-part2)
+(sicp-main-ch3-sec5-part3)
+(sicp-main-ch3-sec5-part4)
+(sicp-main-ch3-sec5-part5)
+(sicp-main-ch4-sec1-part1)
+(sicp-main-ch4-sec1-part2)
+(sicp-main-ch4-sec1-part3)
+(sicp-main-ch4-sec1-part4)
+(sicp-main-ch4-sec1-part5)
+(sicp-main-ch4-sec1-part6)
+(sicp-main-ch4-sec1-part7)
+(sicp-main-ch4-sec2-part1)
+(sicp-main-ch4-sec2-part2)
+(sicp-main-ch4-sec2-part3)
+(sicp-main-ch4-sec3-part1)
+(sicp-main-ch4-sec3-part2)
+(sicp-main-ch4-sec3-part3)
+(sicp-main-ch4-sec4-part1)
+(sicp-main-ch4-sec4-part2)
+(sicp-main-ch4-sec4-part3)
+(sicp-main-ch4-sec4-part4)
+(sicp-main-ch5-sec1-part1)
+(sicp-main-ch5-sec1-part2)
+(sicp-main-ch5-sec1-part3)
+(sicp-main-ch5-sec1-part4)
+(sicp-main-ch5-sec1-part5)
+(sicp-main-ch5-sec2-part1)
+(sicp-main-ch5-sec2-part2)
+(sicp-main-ch5-sec2-part3)
+(sicp-main-ch5-sec2-part4)
+(sicp-main-ch5-sec3-part1)
+(sicp-main-ch5-sec3-part2)
+(sicp-main-ch5-sec4-part1)
+(sicp-main-ch5-sec4-part2)
+(sicp-main-ch5-sec4-part3)
+(sicp-main-ch5-sec4-part4)
+(sicp-main-ch5-sec5-part1)
+(sicp-main-ch5-sec5-part2)
+(sicp-main-ch5-sec5-part3)
+(sicp-main-ch5-sec5-part4)
+(sicp-main-ch5-sec5-part5)
+(sicp-main-ch5-sec5-part6)
+(sicp-main-ch5-sec5-part7)
+
+
