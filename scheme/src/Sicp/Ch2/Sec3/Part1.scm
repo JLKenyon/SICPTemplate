@@ -7,3 +7,4 @@
     (display "sicp-main-ch2-sec3-part1\n")
 )
 
+(define (memq item x) #f)
