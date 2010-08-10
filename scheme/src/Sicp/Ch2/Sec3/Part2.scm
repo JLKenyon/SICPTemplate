@@ -19,3 +19,5 @@
 (define (multiplier e) #f)
 (define (multiplicand e) #f)
 (define (make-product m1 m2) #f)
+
+(define (deriv exp var) #f)
