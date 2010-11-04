@@ -65,7 +65,6 @@
 
 ; 2.61
 (define (ord:adjoin-set x set) #f)
-(define (ord:element-of-set? x set) #f)
 
 ; 2.62
 (define (ord:union-set set1 set2) #f)

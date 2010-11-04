@@ -7,3 +7,7 @@
     (display "sicp-main-ch2-sec5-part2\n")
 )
 
+(define (add-complex-to-schemenum z x) #f)
+
+(define (scheme-number->complex n) #f)
+
