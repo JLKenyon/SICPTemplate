@@ -28,3 +28,12 @@
 module Sicp.Ch2.Sec1.Part4 where
 
 sicpMain = putStrLn "Sicp.Ch2.Sec1.Part4"
+
+data Interval = Interval Float Float
+
+instance Num Interval where
+    (Interval l1 h1) + (Interval l2 h2) = (Interval (l1 + l2) (h1 + h2))
+    (Interval l1 h1) * (Interval l2 h2) = (Interval (l1 * l2) (h1 + h2))
+    (Interval l1 h1) - (Interval l2 h2) = (Interval (l1 - l2) (h1 - h2))
+    negate (Interval l1 h1) = (Interval (negate l1) (negate h1))
+-- abs?
