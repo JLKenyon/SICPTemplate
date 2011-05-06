@@ -1,5 +1,7 @@
 #lang scheme
 
+(require "util243.scm")
+
 (provide sicp-main-ch2-sec4-part3
          install-rectangular-package
          gen:apply-generic
@@ -28,11 +30,9 @@
 
 ; Data-Directed Programming and Additivity
 
-; Note that this section uses code which will not be implemented
-; until chapter 3!  For now focus on the text and you may return
-; here after section 3.3.3
-; TODO - come up with a better way of solving this...
-(require "../../Ch3/Sec3/Part3.scm")
+; Note!
+; In the chapter it is declared that "put" and "get" are assumed
+; In this case you may use util243:put and util243:get in their place
 
 (define (install-rectangular-package) #f)
 
